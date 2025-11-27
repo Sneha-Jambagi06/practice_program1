@@ -13,7 +13,8 @@ else:
   m3=95
   m4=100
   m5=95
-avg=((m1+m2+m3+m4+m5)/5)
+sum=m1+m2+m3+m4+m5
+avg=(sum/5)
 if(avg>90):
    grade='A'
 elif(avg>80):
