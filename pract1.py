@@ -1,11 +1,11 @@
 import sys
 if len(sys.argv)==6:
   script_name=sys.argv[0]
-  m1=sys.argv[1]
-  m2=sys.argv[2]
-  m3=sys.argv[3]
-  m4=sys.argv[4]
-  m5=sys.argv[5]
+  m1=int(sys.argv[1])
+  m2=int(sys.argv[2])
+  m3=int(sys.argv[3])
+  m4=int(sys.argv[4])
+  m5=int(sys.argv[5])
 else:
   script_name=sys.argv[0]
   m1=85
